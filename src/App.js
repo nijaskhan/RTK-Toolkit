@@ -10,9 +10,9 @@ const outerContainer={
 function App() {
   return (
     <div style={outerContainer}>
-      <h1>Hello react</h1>
+      <h1>React RTK Query Test</h1>
     </div>
   );
-}
+} 
 
 export default App;
