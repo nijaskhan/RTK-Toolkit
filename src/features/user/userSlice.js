@@ -1,7 +1,7 @@
-const { default: axios } = require('axios');
-
-import { createSlice } from ('@reduxjs/toolkit');
+import { createSlice } from '@reduxjs/toolkit';
 import { createAsyncThunk } from '@reduxjs/toolkit';
+import axios from 'axios';
+
 
 const initialState = {
     loading: false,
