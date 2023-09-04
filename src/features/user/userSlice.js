@@ -12,7 +12,7 @@ const initialState = {
 // we will get promise fulfilled or promise rejected or promise pending in fetchUsers
 export const fetchUsers = createAsyncThunk('users/fetchUsers', () => {
     return axios.get('https://jsonplaceholder.typicode.com/users')
-        .then((response) => response.data.map((user) => user.name));
+        .then((response) => response.data);
 });
 
 const userSlice = createSlice({
