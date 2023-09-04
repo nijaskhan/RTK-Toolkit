@@ -8,19 +8,11 @@ const outerContainer = {
   justifyContent: 'center',
   alignItems: 'center',
 }
-const innerContainer = {
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-}
 
-function App() {
+const App = () => {
   return (
     <>
       <div style={outerContainer}>
-        <h1>React RTK Query Test</h1>
-      </div>
-      <div style={innerContainer}>
         <div>
           <CakeView />
           <IcecreamView />
