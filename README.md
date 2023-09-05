@@ -1,1 +1,1 @@
-Redux_ToolKit Tutorial with reactJS , Webpack bundler used for bundling.
+<h1> Redux_Toolkit ( template for RTK_project_setup ) - Tutorial code with reactJS, webpack bundler </h1>
